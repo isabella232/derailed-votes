@@ -1,7 +1,49 @@
-h2= hed
-h2= dek
+//- Markup Generators
 
-for item in items
-	p!= item.copy
-	
-div#graphic
+mixin genItemBlock(info)
+	.item
+		h3!=info.prob
+		h4!=info.fix
+		if info.copy
+			p!=info.copy
+
+mixin genAllItems(list)
+	for item in list
+		+genItemBlock(item)
+
+//- 
+
+//- Content
+
+.marker
+	p Now
+
+section.today
+	h2 Things that you can do today
+	+genAllItems(today)
+
+.marker
+	p Soon
+
+section.before_reg_deadline
+	+genAllItems(before_reg_deadline)
+
+.marker
+	p Registration Deadline
+
+section.before_elec_day
+	+genAllItems(before_elec_day)
+
+.marker
+	p Election Day
+
+section.election_day
+	+genAllItems(election_day)
+
+.marker
+	p later
+
+section.later
+	+genAllItems(later)
+
+//- 
