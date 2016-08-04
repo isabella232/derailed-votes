@@ -6,7 +6,11 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "You can register online in 30 states. TKAll make forms available online that can be filled out and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at State or local election offices, The Department of Motor Vehicles, Public assistance agencies, State funded programs that serve people with disabilities, and often times at public libraries, public schools, and municipal clerk’s office. Americans living abroad"
+                    "value": "You can register to vote online in <a href=\"http://www.ncsl.org/research/elections-and-campaigns/electronic-or-online-voter-registration.aspx\">31 states</a>. Many states also make forms available online that can be filled out and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at state or local election offices, The Department of Motor Vehicles, Public assistance agencies, and state-funded programs that serve people with disabilities. Many times they are also available at public libraries, schools, and the municipal clerk’s office."
+                },
+                {
+                    "type": "text",
+                    "value": "Americans living abroad can register by printing a form, completing it, and mailing it to their local election office. More information is available from the <a href=\"https://www.fvap.gov/citizen-voter\">Federal Voting Assistance Program</a>."
                 }
             ]
         },
@@ -16,13 +20,13 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Even a move across the street could cause you to be put into a different voting precinct. If you vote in the wrong precinct your ballot could be challenged and your vote might not count. Many states allow for a 60-day grace period to vote using your old address and others may let you update your address on election day. In any case, it’s far simpler to update your registration as soon as you move."
+                    "value": "Even moving just across the street could cause you to be put into a different voting precinct. If you vote in the wrong precinct your ballot could be challenged and your vote might not count. Many states allow for a 60-day grace period to vote using your old address. Others may let you update your address on election day. In any case, it’s simpler to update your registration information in advance of election day."
                 }
             ]
         },
         {
             "prob": "You've been struck from the rolls",
-            "Fix": "Verify your registration and reregister if necessary",
+            "fix": "Verify your registration and reregister if necessary",
             "copy": [
                 {
                     "type": "text",
@@ -36,7 +40,11 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "There are many reason that could keep you from the physical poll location"
+                    "value": "There are many reason that could keep you from a voting booth on election day. Voters who have a legitimate reason may be eligible to request an absentee ballot. Some states allow you to do this online."
+                },
+                {
+                    "type": "text",
+                    "value": "Voters who live abroad can request an absentee ballot by <a href=\"https://www.fvap.gov/citizen-voter\">mailing a form to their local election office</a>. Note that state’s are not required to automatically send ballots to citizens who voted abroad in previous elections. To ensure you get a ballot, make sure you send in a new form at least once per year."
                 }
             ]
         }
@@ -48,31 +56,49 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Even if you’ve checked your registration far in advance, it’s possible you could still be struck from the rolls before election day. Do yourself a favor and check again before your local registration deadline expires."
+                    "value": "Even if you’ve checked your registration in advance, it’s still possible you could still be struck from the rolls before election day. Do yourself a favor and check again before your state’s registration deadline expires."
                 }
             ]
         },
         {
             "prob": "You're not sure what day or time the election is",
-            "fix": "Verify the election day and poll hours with your local TK.",
+            "fix": "Verify the election day and poll hours with your local election authority",
             "copy": [
                 {
                     "type": "text",
-                    "value": "Bad actors, attempting to suppress the vote, have been shown to spread misinformation about when voting can take place."
+                    "value": "In the past some people have attempted to suppress the vote by spreading misinformation about when and where voting will take place. You should only trust government sources for information about where and when you will vote. If you suspect someone is spreading misinformation you should report it to election officials or local police."
                 }
             ]
         },
         {
-            "prob": "You're not familiar with the ballot format",
-            "fix": "Read the sample ballot"
+            "prob": "You don’t know how to vote",
+            "fix": "Get a sample ballot",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "All states make sample ballots available prior to the election. Often they are online. If not, you can get one from a state or local election office."
+                }
+            ]
         },
         {
             "prob": "You live abroad and haven't received an absentee ballot",
-            "fix": "You can fill out an emergency write-in ballot. Contact the nearest consulate or embassy for help."
+            "fix": "Vote with an emergency write-in ballot",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "Americans living abroad who do not receive their absentee ballot in time to vote may instead cast an emergency write-in ballot. Contact the nearest consulate or embassy for help."
+                }
+            ]
         },
         {
             "prob": "You don't have the required form of identification",
-            "fix": "Get it"
+            "fix": "Get it",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "In the past few years many states have passed controversial new laws that increase the identification requirements for voters. Many now require a government-issued photo ID. Make sure you know <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">what is required in your state</a>. If you don’t have the correct form of identification, make sure you give yourself enough time to get it before election day. Remember that you don’t have to drive in order to get a state ID."
+                }
+            ]
         }
     ],
     "election_day": [
@@ -82,7 +108,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Many websites, including Google, will offer instructions on how to find your polling place. However, these services are not always accurate. We strongly recommend you verify your polling place with your local officials. They are the final authority on where you should vote."
+                    "value": "Many websites, including Google, will offer instructions on how to find your polling place. Unfortunately, these services are not always accurate. The only official sources for polling place information are state and county governments. Many allow you to look this information up online, but you can also call."
                 }
             ]
         },
@@ -92,7 +118,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Various forms of intimidation have been documented occurring both before voters get to the polls as well as at polling places themselves. Voting is a protected activity and interfering with someone’s ability to vote is a federal crime. (TK: true?) If someone is warning you about going to the polls, you should report them to your local police department."
+                    "value": "Various forms of intimidation have been documented occurring before voters go to the polls as well as at polling places themselves. Voting is an important and legally protected activity. Anyone interfering with someone else’s ability to vote is committing a federal crime. (TK: true?) If someone is warning away from the polls, you should report them to election officials or your local police department."
                 }
             ]
         },
@@ -112,7 +138,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still eligible to vote. Ask to cast a provisional ballot. You may be required to follow-up with documentation confirming your eligibility to vote. You should be provided a receipt which will allow you to verify your vote is included in the final count."
+                    "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still eligible to cast a “provisional ballot.” You may be required to follow-up with documentation confirming your eligibility to vote. Poll workers should provide you with a receipt which will allow you to verify your vote is included in the final count."
                 }
             ]
         },
@@ -132,7 +158,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "If your polling place has only touchscreen voting machines, there are still steps you can take to ensure the integrity of your vote. The first thing you can do is check for visual evidence the voting machine may have been tampered with. There are often tamper-proof security seals on sensitive parts of the machine. If these are broken, you should report it to a polling place worker and not use that machine."
+                    "value": "If your polling place <a href=\"https://www.verifiedvoting.org/verifier/\">has only touchscreen voting machines</a>, there are still steps you can take to ensure the integrity of your vote. The first thing you can do is check for visual evidence the voting machine may have been tampered with. There are often tamper-proof security seals on sensitive parts of the machine. If these are broken, you should report it to a polling place worker and not use that machine."
                 },
                 {
                     "type": "text",
@@ -150,7 +176,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Be sure to fill in your vote clearly and completely using the directions given to you"
+                    "value": "Be sure to fill in your vote clearly and completely using the directions given to you TKTK"
                 }
             ]
         }
@@ -158,11 +184,11 @@
     "later": [
         {
             "prob": "The vote is not audited in your state",
-            "fix": "Advocate for automatic vote recounts",
+            "fix": "Advocate for mandatory audits",
             "copy": [
                 {
                     "type": "text",
-                    "value": "Post-election audits are one way to verify that elections were conducted in a secure and reliable fashion. Unfortunately, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/post-election-audits635926066.aspx\">21 states</a> either don’t perform post-election audits, or only perform them under certain circumstances. Encouraging leaders in those states to pass audit legislation is one step toward making sure your vote always counts."
+                    "value": "Post-election audits are one way to verify that elections were conducted in a secure and reliable fashion. This usually involves manually recounting some percentage of the votes. Often election procedures are also reviewed for any problems. Unfortunately, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/post-election-audits635926066.aspx\">21 states</a> either don’t perform post-election audits, or only perform them under certain circumstances. Encouraging elected leaders in your state to pass audit legislation is one step toward making sure your vote always counts."
                 }
             ]
         },

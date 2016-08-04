@@ -15,32 +15,34 @@ mixin genAllItems(list)
 
 //- Content
 
-.marker
-	p Now
+.timeline
+	.marker
+		p Now
 
-section.today
-	h2 Problems you might have right now
-	+genAllItems(today)
+	section.today
+		h2 Problems you might have right now
+		+genAllItems(today)
 
-.marker
-	p Soon
+	.marker
+		p Soon
 
-section.before_elec_day
-	h2 Problems you might have as election day approaches
-	+genAllItems(before_elec_day)
+	section.before_elec_day
+		h2 Problems you might have as election day approaches
+		+genAllItems(before_elec_day)
 
-.marker
-	p Election Day
+	.marker
+		p Election Day, November 8, 2016
 
-section.election_day
-	h2 Problems you might have on election day
-	+genAllItems(election_day)
+	section.election_day
+		h2 Problems you might have on election day
+		+genAllItems(election_day)
 
-.marker
-	p After election day
+	.marker
+		p After election day
 
-section.later
-	h2 Problems that put your vote at risk this election season
-	+genAllItems(later)
+	section.later
+		h2 Problems that put your vote at risk this election season
+		+genAllItems(later)
+	.line
 
 //- 
