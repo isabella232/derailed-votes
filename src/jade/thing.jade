@@ -19,31 +19,35 @@ mixin genAllItems(list)
 	p Now
 
 section.today
-	h2 Things that you can do today
+	h2 Problems you might have right now
 	+genAllItems(today)
 
 .marker
 	p Soon
 
 section.before_reg_deadline
+	h2 Problems that you might have soon
 	+genAllItems(before_reg_deadline)
 
 .marker
 	p Registration Deadline
 
 section.before_elec_day
+	h2 Problems you might have as election day approaches
 	+genAllItems(before_elec_day)
 
 .marker
 	p Election Day
 
 section.election_day
+	h2 Problems you might have on election day
 	+genAllItems(election_day)
 
 .marker
-	p later
+	p After election day
 
 section.later
+	h2 Problems that put your vote at risk this election season
 	+genAllItems(later)
 
 //- 
