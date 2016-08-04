@@ -1,1 +1,92 @@
-{"today":[{"prob":"You've been struck from the rolls","fix":"Check your registration, and reregister","copy":"Even if you've voted in the past it is possible you've been removed from the voting rolls. There are a number of ways this can happen, such as changing addresses, technical glitches, and TK."},{"prob":"You've moved or changed your name","fix":"Check your registration, and reregister","copy":"Moving down the street you could have crossed into a new election precinct, voting in the wrong precinct could lead to your ballot being challenged and your vote not counting. Many states allow for a 60-day grace period to vote using your old address, others may let you update your address on election day."}],"before_reg_deadline":[{"prob":"You're not registered to vote","fix":"Get registered","copy":"You can register online in 30 states. TKAll make forms available online that can be filled out and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at State or local election offices, The Department of Motor Vehicles, Public assistance agencies, State funded programs that serve people with disabilities, and often times at public libraries, public schools, and municipal clerk’s office. Americans living abroad"},{"prob":"You don't expect to be able to make it to the polls on election day.","fix":"Request an absentee ballot","copy":"There are many reason that could keep you from the physical poll location"}],"before_elec_day":[{"prob":"You're not sure where your polling place is","fix":"Verify your polling place with county officials"},{"prob":"You're not sure what day or time the election is","fix":"Verify the election day and poll hours with your local TK.","copy":"Bad actors, attempting to suppress the vote, have been shown to spread misinformation about when voting can take place."},{"prob":"You're not familiar with the ballot format","fix":"Read the sample ballot"},{"prob":"You live abroad and haven't received an absentee ballot","fix":"You can fill out an emergency write-in ballot. Contact the nearest consulate or embassy for help."},{"prob":"You don't have the required form of identification","fix":"Get it"}],"election_day":[{"prob":"You're not sure where your polling place is","fix":"Verify your polling place with county officials"},{"prob":"Someone told you that you could get arrested at the polls","fix":"You won't"},{"prob":"Your state had electronic touchscreen voting machines","fix":"If there's an option ask to use a paper ballot"},{"prob":"You're required to use a voting machine","fix":"Check for visual evidence it may have been tampered with, ensure your input is registered correctly on the screen, Get a receipt for your ballot and verify it matches your vote (if offered)"},{"prob":"You filled out your ballot incorrectly","fix":"In most statesTK you can discard multiple ballots when you make a mistake","copy":"Be sure to fill in your vote clearly and completely using the directions given to you"},{"prob":"You can't get to the polls","fix":"Call a voter van","copy":"There are partisan and nonpartisan organizations that you can call to help you get to the polls for free."},{"prob":"You're not listed on the voter rolls","fix":"Cast a provisional ballot","copy":"TK TK"}],"later":[{"prob":"There is no way to audit vote counts in your state","fix":"Advocate for that issue"},{"prob":"You were not eligible to vote","fix":"Advocate for that issue"}]}
+{
+    "today": [
+        {
+            "prob": "You've been struck from the rolls",
+            "fix": "Check your registration, and reregister",
+            "copy": "Even if you've voted in the past it is possible you've been removed from the voting rolls. There are a number of ways this can happen, such as changing addresses, technical glitches, and TK."
+        },
+        {
+            "prob": "You've moved or changed your name",
+            "fix": "Check your registration, and reregister",
+            "copy": "Moving down the street you could have crossed into a new election precinct, voting in the wrong precinct could lead to your ballot being challenged and your vote not counting. Many states allow for a 60-day grace period to vote using your old address, others may let you update your address on election day."
+        }
+    ],
+    "before_reg_deadline": [
+        {
+            "prob": "You're not registered to vote",
+            "fix": "Get registered",
+            "copy": "You can register online in 30 states. TKAll make forms available online that can be filled out and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at State or local election offices, The Department of Motor Vehicles, Public assistance agencies, State funded programs that serve people with disabilities, and often times at public libraries, public schools, and municipal clerk’s office. Americans living abroad"
+        },
+        {
+            "prob": "You don't expect to be able to make it to the polls on election day.",
+            "fix": "Request an absentee ballot",
+            "copy": "There are many reason that could keep you from the physical poll location"
+        }
+    ],
+    "before_elec_day": [
+        {
+            "prob": "You're not sure where your polling place is",
+            "fix": "Verify your polling place with county officials"
+        },
+        {
+            "prob": "You're not sure what day or time the election is",
+            "fix": "Verify the election day and poll hours with your local TK.",
+            "copy": "Bad actors, attempting to suppress the vote, have been shown to spread misinformation about when voting can take place."
+        },
+        {
+            "prob": "You're not familiar with the ballot format",
+            "fix": "Read the sample ballot"
+        },
+        {
+            "prob": "You live abroad and haven't received an absentee ballot",
+            "fix": "You can fill out an emergency write-in ballot. Contact the nearest consulate or embassy for help."
+        },
+        {
+            "prob": "You don't have the required form of identification",
+            "fix": "Get it"
+        }
+    ],
+    "election_day": [
+        {
+            "prob": "You're not sure where your polling place is",
+            "fix": "Verify your polling place with county officials"
+        },
+        {
+            "prob": "Someone told you that you could get arrested at the polls",
+            "fix": "You won't"
+        },
+        {
+            "prob": "Your state had electronic touchscreen voting machines",
+            "fix": "If there's an option ask to use a paper ballot"
+        },
+        {
+            "prob": "You're required to use a voting machine",
+            "fix": "Check for visual evidence it may have been tampered with, ensure your input is registered correctly on the screen, Get a receipt for your ballot and verify it matches your vote (if offered)"
+        },
+        {
+            "prob": "You filled out your ballot incorrectly",
+            "fix": "In most statesTK you can discard multiple ballots when you make a mistake",
+            "copy": "Be sure to fill in your vote clearly and completely using the directions given to you"
+        },
+        {
+            "prob": "You can't get to the polls",
+            "fix": "Call a voter van",
+            "copy": "There are partisan and nonpartisan organizations that you can call to help you get to the polls for free."
+        },
+        {
+            "prob": "You're not listed on the voter rolls",
+            "fix": "Cast a provisional ballot",
+            "copy": "TK TK"
+        }
+    ],
+    "later": [
+        {
+            "prob": "There is no way to audit vote counts in your state",
+            "fix": "Advocate for that issue"
+        },
+        {
+            "prob": "You were not eligible to vote",
+            "fix": "Advocate for that issue"
+        }
+    ]
+}

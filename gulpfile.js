@@ -82,7 +82,7 @@ function getContentTask(doneCallback) {
 			function(error, resp, body) {
 				if(!error && resp.statusCode < 400) {
 					content = JSON.parse(body);
-					fs.writeFileSync("content.json", body, "utf-8");
+					fs.writeFileSync("content.json", JSON.stringify(content, null, 4), "utf-8");
 					doneCallback();
 				}
 				else {
