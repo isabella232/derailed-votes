@@ -1,34 +1,32 @@
 {
     "today": [
         {
-            "prob": "You've been struck from the rolls",
-            "fix": "Check your registration, and reregister",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Even if you've voted in the past it is possible you've been removed from the voting rolls. There are a number of ways this can happen, such as changing addresses, technical glitches, and TK."
-                }
-            ]
-        },
-        {
-            "prob": "You've moved or changed your name",
-            "fix": "Check your registration, and reregister",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Moving down the street you could have crossed into a new election precinct, voting in the wrong precinct could lead to your ballot being challenged and your vote not counting. Many states allow for a 60-day grace period to vote using your old address, others may let you update your address on election day."
-                }
-            ]
-        }
-    ],
-    "before_reg_deadline": [
-        {
             "prob": "You're not registered to vote",
             "fix": "Get registered",
             "copy": [
                 {
                     "type": "text",
                     "value": "You can register online in 30 states. TKAll make forms available online that can be filled out and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at State or local election offices, The Department of Motor Vehicles, Public assistance agencies, State funded programs that serve people with disabilities, and often times at public libraries, public schools, and municipal clerk’s office. Americans living abroad"
+                }
+            ]
+        },
+        {
+            "prob": "You've moved or changed your name",
+            "fix": "Reregister with local election officials",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "Even a move across the street could cause you to be put into a different voting precinct. If you vote in the wrong precinct your ballot could be challenged and your vote might not count. Many states allow for a 60-day grace period to vote using your old address and others may let you update your address on election day. In any case, it’s far simpler to update your registration as soon as you move."
+                }
+            ]
+        },
+        {
+            "prob": "You've been struck from the rolls",
+            "Fix": "Verify your registration and reregister if necessary",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "Even if you've voted in the past it is possible you've been removed from the voting rolls. There are a number of ways this can happen, such as a change of address or a technical glitch in the registration database. Some states also routinely purge <a href=\"http://www.reuters.com/article/us-usa-votingrights-ohio-insight-idUSKCN0YO19D\">voters that don’t show up</a>. Before every election you should confirm your registration information so that you won’t have any issues on election day."
                 }
             ]
         },
@@ -45,8 +43,14 @@
     ],
     "before_elec_day": [
         {
-            "prob": "You're not sure where your polling place is",
-            "fix": "Verify your polling place with county officials"
+            "prob": "You’ve been struck from the voter rolls (again)",
+            "fix": "Verify your registration and reregister if necessary (again!)",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "Even if you’ve checked your registration far in advance, it’s possible you could still be struck from the rolls before election day. Do yourself a favor and check again before your local registration deadline expires."
+                }
+            ]
         },
         {
             "prob": "You're not sure what day or time the election is",
@@ -98,7 +102,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "There are both partisan and nonpartisan organizations that will pick you up and drive you to the polls, for free. Call your local party offices or county election officials to find out what services are available for your polling place."
+                    "value": "There are both partisan and nonpartisan organizations that will pick you up and drive you to the polls—for free. Call your local party offices or county election officials to find out what services are available for your polling place."
                 }
             ]
         },
@@ -108,7 +112,7 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still able to vote. You should ask to cast a provisional ballot. Election officials may ask you to follow-up with official documentation before your vote is counted. You should be provided a receipt with which to follow-up on the status of your vote."
+                    "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still eligible to vote. Ask to cast a provisional ballot. You may be required to follow-up with documentation confirming your eligibility to vote. You should be provided a receipt which will allow you to verify your vote is included in the final count."
                 }
             ]
         },
@@ -158,13 +162,19 @@
             "copy": [
                 {
                     "type": "text",
-                    "value": "Only a few states (TK, TK, TK) automatically audit their vote counts after every election."
+                    "value": "Post-election audits are one way to verify that elections were conducted in a secure and reliable fashion. Unfortunately, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/post-election-audits635926066.aspx\">21 states</a> either don’t perform post-election audits, or only perform them under certain circumstances. Encouraging leaders in those states to pass audit legislation is one step toward making sure your vote always counts."
                 }
             ]
         },
         {
             "prob": "You were not eligible to vote",
-            "fix": "Advocate for that issue"
+            "fix": "Advocate for voter rights",
+            "copy": [
+                {
+                    "type": "text",
+                    "value": "TKTK"
+                }
+            ]
         }
     ]
 }
