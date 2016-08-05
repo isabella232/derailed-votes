@@ -17,31 +17,27 @@ mixin genAllItems(list)
 
 .timeline
 	.marker
-		p Now
+		p Problems you can solve today
 
 	section.today
-		h2 Problems you might have right now
 		+genAllItems(today)
 
 	.marker
-		p Soon
+		p Problems before election day
 
 	section.before_elec_day
-		h2 Problems you might have as election day approaches
 		+genAllItems(before_elec_day)
 
 	.marker
-		p Election Day, November 8, 2016
+		p Problems on election day<br/>November 8, 2016
 
 	section.election_day
-		h2 Problems you might have on election day
 		+genAllItems(election_day)
 
 	.marker
-		p After election day
+		p Problems for future elections
 
 	section.later
-		h2 Problems that put your vote at risk this election season
 		+genAllItems(later)
 	.line
 

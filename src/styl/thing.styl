@@ -8,7 +8,7 @@
 	width 95%
 	margin 0 auto
 	position relative
-	
+
 	.line
 		position absolute
 		left 50%
@@ -30,7 +30,7 @@ section
 		text-align center
 		background-color $qz-background-gray
 		z-index 1000
-	
+
 	.item
 		z-index 1
 		box-sizing border-box
@@ -41,10 +41,10 @@ section
 		padding 0.75em
 		position relative
 		border 1px solid #ddd
-		
+
 		&:not(:last-child)
 			margin-bottom -5em
-		
+
 		&::before
 			content ""
 			position absolute
@@ -52,23 +52,23 @@ section
 			height 0
 			width 0
 			border 7px solid transparent
-			
-		
+
+
 		background-color #ddd
-		
+
 		&:nth-child(2n)
 			margin-left 53%
-			
+
 			&::before
 				right 100%
 				border-right 7px solid #ddd
-				
+
 		&:nth-child(2n+1)
 			&::before
 				border-left 7px solid #ddd
 				left 100%
-		
-		
+
+
 		h3, h4
 			margin 0
 			padding 0
@@ -82,31 +82,31 @@ section
 		h3
 			&::before
 				content "problem"
-				
+
 		h4
 			margin-top 0.2em
 			&::before
 				content "what you can do"
-		
+
 		p
 			font-size 14px
 			line-height 1.4
 			padding 0
 			margin 0.45em 0 0.45em 0
-			
-@media only screen and (max-width 590px)	
+
+@media only screen and (max-width 590px)
 	.item
 		margin-left 0
-		margin-bottom 0		
+		margin-bottom 0
 
 .marker
 	position relative
 	border 3px $qz-gray-1 solid
-	max-width 200px
+	max-width 400px
 	margin 0 auto
 	background-color $qz-gray-1
 	z-index 3
-	
+
 	p
 		width auto
 		text-align center
