@@ -8,7 +8,7 @@
                 "copy": [
                     {
                         "type": "text",
-                        "value": "More than 35% of Americans who are eligible to vote are not registered. If you are one of them, or are voting for the first time, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/electronic-or-online-voter-registration.aspx\">31 states</a> will allow you to register online. About a dozen states will allow you to register and the polls <a href=\"http://www.ncsl.org/research/elections-and-campaigns/same-day-registration.aspx\">on election day</a>."
+                        "value": "More than 35% of Americans who are eligible to vote are not registered. If you are one of them, or are voting for the first time, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/electronic-or-online-voter-registration.aspx\">31 states</a> will allow you to register online. About a dozen states will allow you to register at the polls <a href=\"http://www.ncsl.org/research/elections-and-campaigns/same-day-registration.aspx\">on election day</a>."
                     },
                     {
                         "type": "text",
@@ -40,13 +40,13 @@
                     },
                     {
                         "type": "text",
-                        "value": "Voters who live abroad can request an absentee ballot by <a href=\"https://www.fvap.gov/citizen-voter\">mailing a form to their local election office</a>. Note that states are not required to automatically send ballots to citizens who voted abroad in previous elections. To ensure you get a ballot if you live overseas, make sure you send in a new form at least once per year."
+                        "value": "Voters who live abroad can request an absentee ballot by <a href=\"https://www.fvap.gov/citizen-voter\">mailing a form to their local election office</a>. Note that states are not required to automatically send ballots to citizens who voted abroad in previous elections. To ensure you get a ballot if you live overseas, make sure you send in a new form at least once a year."
                     }
                 ]
             },
             {
                 "prob": "You've been removed from the voter rolls",
-                "fix": "Verify your registration and reregister if necessary",
+                "fix": "Verify your registration and re-register if necessary",
                 "watch_out": "true",
                 "copy": [
                     {
@@ -66,7 +66,7 @@
                 "copy": [
                     {
                         "type": "text",
-                        "value": "In the past few years many states have passed controversial new laws that increase the identification requirements for voters. Many now require a government-issued photo ID. Make sure you know <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">what is required in your state</a>. If you don’t have the correct form of identification check with your state Department of Motor Vehicles to see how long the process takes and be sure you allow yourself enough time to have it in-hand for election day. (Remember that you don’t have to be a driver in order to get a state-issued ID.)"
+                        "value": "In the past few years many states have passed controversial new voting laws with strict identification requirements. Many now require a government-issued photo ID. Make sure you know <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">what is required in your state</a>. If you don’t have the correct form of identification check with your state Department of Motor Vehicles to see how long the process takes and be sure you allow yourself enough time to have it in-hand for election day. (Remember that you don’t have to be a driver in order to get a state-issued ID.)"
                     }
                 ]
             },
@@ -76,7 +76,7 @@
                 "copy": [
                     {
                         "type": "text",
-                        "value": "Information about polling place hours is available from many sources, including advocacy groups and local media. Unfortunately, in previous elections some groups have attempted to suppress voting by spreading false information about when and where voting will take place. You should only trust state or local election authorities for information about where and when you will vote. If you suspect someone is intentionally misleading voters you should report it to election officials or local police."
+                        "value": "Information about polling place hours is available from many sources, including advocacy groups and local media. Unfortunately, in previous elections some groups have attempted to suppress voting by spreading false information about when and where voting will take place. You should only trust state or local election authorities for voting information. If you suspect someone is intentionally misleading voters you should report it to election officials or local police."
                     }
                 ]
             },
@@ -102,12 +102,12 @@
             },
             {
                 "prob": "You’ve been removed from the voter rolls (again)",
-                "fix": "Verify your registration again and register agaib if necessary",
+                "fix": "Verify your registration again and register again if necessary",
                 "watch_out": "true",
                 "copy": [
                     {
                         "type": "text",
-                        "value": "Even if you checked your registration in advance, it’s still possible you could still be struck from the voter rolls before election day. Check again before your state’s registration deadline expires."
+                        "value": "Even if you checked your registration in advance, it’s still possible you could still be struck from the voter rolls before election day. Check again before your state’s registration deadline expires. See above for details."
                     }
                 ]
             }
@@ -132,7 +132,7 @@
                 "copy": [
                     {
                         "type": "text",
-                        "value": "Various forms of intimidation have been documented as occurring while voters are on the way to polls as well as at polling places themselves. Voting is an important and legally protected activity. Anyone interfering with someone else’s ability to vote <a href=\"https://www.law.cornell.edu/uscode/text/18/594\">is committing a federal crime</a>. If someone is warning you away from the polls, you should report them to election officials or local police. If you don’t feel comfortable reporting issues to the authorities, you can also contact the nonpartisan <a href=\"http://www.866ourvote.org/\">Election Protection coalition</a>."
+                        "value": "Various forms of intimidation have been documented while voters are on the way to polls as well as at polling places themselves. Voting is an important and legally protected activity. Anyone interfering with someone else’s ability to vote <a href=\"https://www.law.cornell.edu/uscode/text/18/594\">is committing a federal crime</a>. If someone is warning you away from the polls, you should report them to election officials or local police. If you don’t feel comfortable reporting issues to the authorities, you can also contact the nonpartisan <a href=\"http://www.866ourvote.org/\">Election Protection coalition</a>."
                     }
                 ]
             },
@@ -188,7 +188,7 @@
                 ]
             },
             {
-                "prob": "There are no paper ballots available so you have to use a touchscreen voting machine",
+                "prob": "There are no paper ballots available so you must to use a touchscreen voting machine",
                 "fix": "Check the machine for tampering or defects",
                 "watch_out": "true",
                 "copy": [
@@ -198,7 +198,7 @@
                     },
                     {
                         "type": "text",
-                        "value": "Check for visual evidence the voting machine may have been tampered with. Look for security seals on sensitive parts of the machine and if these are broken, report it to a polling place worker. Do not use that machine."
+                        "value": "Check for visual evidence the voting machine has been tampered with. Look for security seals on sensitive parts of the machine and if these are broken, report it to a polling place worker. Do not use that machine."
                     },
                     {
                         "type": "text",
@@ -206,7 +206,7 @@
                     },
                     {
                         "type": "text",
-                        "value": "Check the printout to verify the vote matches what you intended.Most touchscreen voting machines will produce a paper record that documents your vote."
+                        "value": "Check the printout to verify the vote matches what you intended. Most touchscreen voting machines will produce a paper record that documents your vote."
                     }
                 ]
             }
@@ -235,7 +235,7 @@
                     },
                     {
                         "type": "text",
-                        "value": "Opinions about these issues tend to vary with party affiliation. If you feel that you were unable to vote for an unjustified reason, contact your elected officials."
+                        "value": "Opinions about these issues tend to vary with party affiliation. If you feel the reason you were unable to vote is unjust, contact your elected officials."
                     }
                 ]
             }
