@@ -1,228 +1,240 @@
 {
-    "today": [
-        {
-            "prob": "You're not registered to vote",
-            "fix": "Get registered",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "More than 35% of Americans who are eligible to vote are not registered. If you are one of them, or are voting for the first time, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/electronic-or-online-voter-registration.aspx\">31 states</a> will allow you to register online. About a dozen states will allow you to register and the polls <a href=\"http://www.ncsl.org/research/elections-and-campaigns/same-day-registration.aspx\">on election day</a>."
-                },
-                {
-                    "type": "text",
-                    "value": "If online or same-day registration are not an option, most states also make forms available online that can be printed, filled out, and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at state or local election offices, the Department of Motor Vehicles, public assistance agencies, and state-funded programs that serve people with disabilities. They may also be available at public libraries, schools, and the municipal clerk’s office."
-                },
-                {
-                    "type": "text",
-                    "value": "Americans living abroad can register by printing a form, completing it, and mailing it to their local election office. The form, and more information is available from the <a href=\"https://www.fvap.gov/citizen-voter\">Federal Voting Assistance Program</a>."
-                }
-            ]
-        },
-        {
-            "prob": "You've moved or changed your name",
-            "fix": "Update your registration with local election officials",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Even a move down the street can cause you to be put into a different voting precinct. Most states allow you 60 days to vote <a href=\"http://www.eac.gov/voter_resources/ive_moved_recently_can_i_still_vote.aspx\">using your old address</a>. After that, you must update your registration to ensure you remain eligible to vote. The process for updating your registration is typically the same as for registering to vote. See above."
-                }
-            ]
-        },
-        {
-            "prob": "You can’t make it to the polls on election day",
-            "fix": "Request an absentee ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "There are many valid reasons that you might not be able to reach your polling place on election day. For example, you may be sick, living abroad, deployed with the military, or attending school in another state. In most states all of these groups are eligible to vote with an absentee ballot. Some allow you to request an absentee ballot online. In others you may need to contact your local election authority to have one mailed to you."
-                },
-                {
-                    "type": "text",
-                    "value": "Voters who live abroad can request an absentee ballot by <a href=\"https://www.fvap.gov/citizen-voter\">mailing a form to their local election office</a>. Note that states are not required to automatically send ballots to citizens who voted abroad in previous elections. To ensure you get a ballot if you live overseas, make sure you send in a new form at least once per year."
-                }
-            ]
-        },
-        {
-            "prob": "You've been removed from the voter rolls",
-            "fix": "Verify your registration and reregister if necessary",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Even if you've voted in the past it is possible you've been removed from the voting rolls. There are a number of ways this can happen, such as a change of address, a technical glitch in the registration database, or a <a href=\"http://www.wnyc.org/story/brooklyn-voter-purge-hit-hispanics-hardest/\">mistake by election officials</a>. Some states, like Ohio, also routinely purge <a href=\"http://www.reuters.com/article/us-usa-votingrights-ohio-insight-idUSKCN0YO19D\">voters that don’t show up</a>. Before every election you should confirm your registration information so that you won’t have any issues on election day."
-                }
-            ]
-        }
-    ],
-    "before_elec_day": [
-        {
-            "prob": "You don't have the required form of identification",
-            "fix": "Get it",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "In the past few years many states have passed controversial new laws that increase the identification requirements for voters. Many now require a government-issued photo ID. Make sure you know <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">what is required in your state</a>. If you don’t have the correct form of identification, make sure you give yourself enough time to get it before election day. Remember that you don’t have to be a driver in order to get a state-issued ID."
-                }
-            ]
-        },
-        {
-            "prob": "You don’t know when to vote",
-            "fix": "Verify the election day and poll hours with local officials",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Information about polling place hours is available from many sources. However, in previous elections some groups have attempted to suppress voting by spreading misinformation about when and where voting will take place. You should only trust state or county sources for information about where and when you will vote. If you suspect someone is spreading misinformation you should report it to election officials or local police."
-                }
-            ]
-        },
-        {
-            "prob": "You don’t know how to vote",
-            "fix": "Get a sample ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "All states make sample ballots available prior to the election. Often they are available online. If they are not, you can get one from your state or county election office. If you have a question about filling out your ballot correctly, call your local election office or ask a polling place worker on election day."
-                }
-            ]
-        },
-        {
-            "prob": "You live abroad and haven't received an absentee ballot",
-            "fix": "Vote with an emergency write-in ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Americans living abroad who do not receive their absentee ballot in time to vote may instead cast an emergency write-in ballot. Contact the nearest consulate or embassy for help."
-                }
-            ]
-        },
-        {
-            "prob": "You’ve been removed from the voter rolls (again)",
-            "fix": "Verify your registration again and register agaib if necessary",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Even if you checked your registration in advance, it’s still possible you could still be struck from the voter rolls before election day. Check again before your state’s registration deadline expires."
-                }
-            ]
-        }
-    ],
-    "election_day": [
-        {
-            "prob": "You don’t know where your polling place is",
-            "fix": "Verify your polling place with county officials",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "The only official sources for polling place information are state and county governments. Many states allow you to look this information up online, but any of them also should be able to tell you over the phone. Many websites, including Google, will offer instructions on how to find your polling place. Unfortunately, these services are not always accurate."
-                }
-            ]
-        },
-        {
-            "prob": "Someone told you that you will be harassed or arrested at the polls",
-            "fix": "Ignore them",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Various forms of intimidation have been documented as occurring while voters are on the way to polls as well as at polling places themselves. Voting is an important and legally protected activity. Anyone interfering with someone else’s ability to vote <a href=\"https://www.law.cornell.edu/uscode/text/18/594\">is committing a federal crime</a>. If someone is warning you away from the polls, you should report them to election officials or local police."
-                }
-            ]
-        },
-        {
-            "prob": "You can't get to the polls",
-            "fix": "Call a voter van",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "There are both partisan and nonpartisan organizations that will pick you up and drive you to the polls—for free. Call your local party offices or county election officials to find out what services are available for your polling place."
-                }
-            ]
-        },
-        {
-            "prob": "You're not listed on the voter rolls",
-            "fix": "Cast a provisional ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still eligible to cast a “provisional ballot.” You may be required to follow-up with documentation confirming your eligibility to vote. Poll workers should provide you with a receipt which will allow you to verify your vote is included in the final tally."
-                }
-            ]
-        },
-        {
-            "prob": "Someone has already voted in your name",
-            "Fix": "Ask for help",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Voter impersonation is often brought up as a concern during controversial elections, however, there is little evidence it is a serious problem in the United States. Studies have repeatedly shown that the vast majority of claims of voter impersonation <a href=\"https://www.washingtonpost.com/news/wonk/wp/2014/08/06/a-comprehensive-investigation-of-voter-impersonation-finds-31-credible-incidents-out-of-one-billion-ballots-cast/\">are unfounded</a>. Nevertheless, it is possible your polling place might tell you that you have already voted when you have not. If you can not resolve the issue with polling place workers you may wish to request help from a nonpartisan organization such as the <a href=\"http://www.866ourvote.org/\">Election Protection coalition</a>."
-                }
-            ]
-        },
-        {
-            "prob": "You filled out your ballot incorrectly",
-            "fix": "Ask for another ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "If you select the wrong candidate or otherwise make a mistake when filling out your ballot, tell a poll worker. They should destroy your original ballot and give you a new one to complete."
-                }
-            ]
-        },
-        {
-            "prob": "Your polling place uses electronic touchscreen voting machines",
-            "fix": "Ask to fill out a paper ballot",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Many states continue to use touchscreen voting machines that are <a href=\"https://www.brennancenter.org/blog/aging-voting-machines-threaten-election-integrity\">outdated and vulnerable to being hacked</a>. However, polling places will often have paper ballots on hand as well. If you are told to use a touchscreen machine, ask if you can fill out a paper ballot instead."
-                }
-            ]
-        },
-        {
-            "prob": "There are no paper ballots available so you have to use a touchscreen voting machine",
-            "fix": "Check the machine for tampering or defects",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "If your polling place <a href=\"https://www.verifiedvoting.org/verifier/\">only has touchscreen voting machines</a>, there are still steps you can take to ensure the integrity of your vote:"
-                },
-                {
-                    "type": "text",
-                    "value": "Check for visual evidence the voting machine may have been tampered with. Look for security seals on sensitive parts of the machine and if these are broken, report it to a polling place worker. Do not use that machine."
-                },
-                {
-                    "type": "text",
-                    "value": "Check that the touchscreen is properly calibrated. The machine should mark the correct box next to the candidate as you tap down the ballot. If the screen appears to be miscalibrated, stop voting and report it to a polling place worker. You will be allowed to use a different machine."
-                },
-                {
-                    "type": "text",
-                    "value": "Check the printout to verify the vote matches what you intended.Most touchscreen voting machines will produce a paper record that documents your vote."
-                }
-            ]
-        }
-    ],
-    "later": [
-        {
-            "prob": "The vote is not audited in your state",
-            "fix": "Advocate for mandatory audits",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "Post-election audits, like manually recounting some percentage of the votes, are one way to verify that elections were conducted in a secure and reliable fashion. Unfortunately, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/post-election-audits635926066.aspx\">21 states</a> either don’t perform post-election audits, or only perform them under certain circumstances. Encouraging elected leaders in your state to pass mandatory audit legislation is one step toward making sure your vote always counts."
-                }
-            ]
-        },
-        {
-            "prob": "You were not eligible to vote",
-            "fix": "Advocate for voter rights",
-            "copy": [
-                {
-                    "type": "text",
-                    "value": "The laws about who is allowed to vote are constantly being revised. For example, many states have adopted more strict rules for the types of identification that must be presented in order to vote. Laws around voting rights for incarcerated individuals are also in flux."
-                },
-                {
-                    "type": "text",
-                    "value": "Opinions about these issues tend to vary with party affiliation. If you feel that you were unable to vote for an unjustified reason, contact your elected officials."
-                }
-            ]
-        }
-    ]
+    "today": {
+        "signpost": "Problems you can solve today",
+        "blurbs": [
+            {
+                "prob": "You're not registered to vote",
+                "fix": "Get registered",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "More than 35% of Americans who are eligible to vote are not registered. If you are one of them, or are voting for the first time, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/electronic-or-online-voter-registration.aspx\">31 states</a> will allow you to register online. About a dozen states will allow you to register and the polls <a href=\"http://www.ncsl.org/research/elections-and-campaigns/same-day-registration.aspx\">on election day</a>."
+                    },
+                    {
+                        "type": "text",
+                        "value": "If online or same-day registration are not an option, most states also make forms available online that can be printed, filled out, and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at many state and county agencies, including election offices, the Department of Motor Vehicles, and state-funded programs that serve people with disabilities. They may also be available at public libraries, schools, and the municipal clerk’s office."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Americans living abroad can register by printing a form, completing it, and mailing it to their local election office. The form, and more information is available from the <a href=\"https://www.fvap.gov/citizen-voter\">Federal Voting Assistance Program</a>."
+                    }
+                ]
+            },
+            {
+                "prob": "You've moved or changed your name",
+                "fix": "Update your registration with local election officials",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Even a move down the street can cause you to be put into a different voting precinct. Most states allow you 60 days to vote <a href=\"http://www.eac.gov/voter_resources/ive_moved_recently_can_i_still_vote.aspx\">using your old address</a>. After that, you must update your registration to ensure you remain eligible to vote. The process for updating your registration is typically the same as for registering to vote. See above."
+                    }
+                ]
+            },
+            {
+                "prob": "You can’t make it to the polls on election day",
+                "fix": "Request an absentee ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "There are many valid reasons that you might not be able to reach your polling place on election day. For example, you may be sick, living abroad, deployed with the military, or attending school in another state. In most states all of these groups are eligible to vote with an absentee ballot. Some allow you to request an absentee ballot online. In others you may need to contact your local election authority to have one mailed to you."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voters who live abroad can request an absentee ballot by <a href=\"https://www.fvap.gov/citizen-voter\">mailing a form to their local election office</a>. Note that states are not required to automatically send ballots to citizens who voted abroad in previous elections. To ensure you get a ballot if you live overseas, make sure you send in a new form at least once per year."
+                    }
+                ]
+            },
+            {
+                "prob": "You've been removed from the voter rolls",
+                "fix": "Verify your registration and reregister if necessary",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Even if you've voted in the past it is possible you've been removed from the voter rolls. States periodically purge their lists of voters to remove people have moved out of state, stopped voting, or died. Unfortunately, there are no consistent rules governing <a href=\"https://www.brennancenter.org/publication/voter-purges\">voter purges</a> and some states are more aggressive about purges than others. This year controversial purges have already taken place in <a href=\"http://www.wnyc.org/story/brooklyn-voter-purge-hit-hispanics-hardest/\">New York</a> and <a href=\"http://www.theatlantic.com/politics/archive/2016/06/ohio-voter-purge/485357/\">Ohio</a>. Before each election it’s smart to confirm your registration information so that you won’t have any issues on election day."
+                    }
+                ]
+            }
+        ]
+    },
+    "before_elec_day": {
+        "signpost": "Problems before election day",
+        "blurbs": [
+            {
+                "prob": "You don't have the required form of identification",
+                "fix": "Get it",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "In the past few years many states have passed controversial new laws that increase the identification requirements for voters. Many now require a government-issued photo ID. Make sure you know <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">what is required in your state</a>. If you don’t have the correct form of identification check with your state Department of Motor Vehicles to see how long the process takes and be sure you allow yourself enough time to have it in-hand for election day. (Remember that you don’t have to be a driver in order to get a state-issued ID.)"
+                    }
+                ]
+            },
+            {
+                "prob": "You don’t know when to vote",
+                "fix": "Verify the election day and poll hours with local officials",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Information about polling place hours is available from many sources, including advocacy groups and local media. Unfortunately, in previous elections some groups have attempted to suppress voting by spreading false information about when and where voting will take place. You should only trust state or local election authorities for information about where and when you will vote. If you suspect someone is intentionally misleading voters you should report it to election officials or local police."
+                    }
+                ]
+            },
+            {
+                "prob": "You don’t know how to vote",
+                "fix": "Get a sample ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "All states make sample ballots available prior to the election. Often they are available online. If they are not, you can get one from your state or county election office. If you have a question about filling out your ballot correctly, call your local election office or ask a polling place worker on election day."
+                    }
+                ]
+            },
+            {
+                "prob": "You live abroad and haven't received an absentee ballot",
+                "fix": "Vote with an emergency write-in ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Americans living abroad who do not receive their absentee ballot in time to vote may instead cast an emergency write-in ballot. Contact the nearest consulate or embassy for help."
+                    }
+                ]
+            },
+            {
+                "prob": "You’ve been removed from the voter rolls (again)",
+                "fix": "Verify your registration again and register agaib if necessary",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Even if you checked your registration in advance, it’s still possible you could still be struck from the voter rolls before election day. Check again before your state’s registration deadline expires."
+                    }
+                ]
+            }
+        ]
+    },
+    "election_day": {
+        "signpost": "Problems on election day<br/>November 8, 2016",
+        "blurbs": [
+            {
+                "prob": "You don’t know where your polling place is",
+                "fix": "Verify your polling place with county officials",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "The only official sources for polling place information are state and county governments. Many states allow you to look this information up online, but any of them also should be able to tell you over the phone. Many websites, including Google, will offer instructions on how to find your polling place. Unfortunately, these services are not always accurate."
+                    }
+                ]
+            },
+            {
+                "prob": "Someone told you that you will be harassed or arrested at the polls",
+                "fix": "Vote, and report efforts to suppress the vote",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Various forms of intimidation have been documented as occurring while voters are on the way to polls as well as at polling places themselves. Voting is an important and legally protected activity. Anyone interfering with someone else’s ability to vote <a href=\"https://www.law.cornell.edu/uscode/text/18/594\">is committing a federal crime</a>. If someone is warning you away from the polls, you should report them to election officials or local police. If you don’t feel comfortable reporting issues to the authorities, you can also contact the nonpartisan <a href=\"http://www.866ourvote.org/\">Election Protection coalition</a>."
+                    }
+                ]
+            },
+            {
+                "prob": "You can't get to the polls",
+                "fix": "Call a voter van",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "There are both partisan and nonpartisan organizations that will pick you up and drive you to the polls—for free. Call your local party offices or county election officials to find out what services are available for your polling place."
+                    }
+                ]
+            },
+            {
+                "prob": "You're not listed on the voter rolls",
+                "fix": "Cast a provisional ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "If a computer glitch or any other problem prevents your name from showing up on the voter rolls on election day, you are still eligible to cast a “provisional ballot.” You may be required to follow-up at your local election authority with documentation confirming your eligibility to vote. Poll workers should provide you with a receipt which will allow you to verify your vote is included in the final tally."
+                    }
+                ]
+            },
+            {
+                "prob": "Someone has already voted in your name",
+                "fix": "Ask for help",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Voter impersonation is often brought up as a concern during controversial elections, however, there is little evidence it is a serious problem in the United States. Studies have repeatedly shown that the vast majority of claims of voter impersonation <a href=\"https://www.washingtonpost.com/news/wonk/wp/2014/08/06/a-comprehensive-investigation-of-voter-impersonation-finds-31-credible-incidents-out-of-one-billion-ballots-cast/\">are unfounded</a>. Nevertheless, it is possible your polling place might tell you that you have already voted when you have not. If you can not resolve the issue with polling place workers you may wish to request help from a nonpartisan organization such as the <a href=\"http://www.866ourvote.org/\">Election Protection coalition</a>."
+                    }
+                ]
+            },
+            {
+                "prob": "You filled out your ballot incorrectly",
+                "fix": "Ask for another ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "If you select the wrong candidate or otherwise make a mistake when filling out your ballot, tell a poll worker. They should destroy your original ballot and give you a new one to complete."
+                    }
+                ]
+            },
+            {
+                "prob": "Your polling place uses electronic touchscreen voting machines",
+                "fix": "Ask to fill out a paper ballot",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Many states continue to use touchscreen voting machines that are <a href=\"https://www.brennancenter.org/blog/aging-voting-machines-threaten-election-integrity\">outdated and vulnerable to being hacked</a>. However, polling places will often have paper ballots on hand as well. If you are told to use a touchscreen machine, ask if you can fill out a paper ballot instead."
+                    }
+                ]
+            },
+            {
+                "prob": "There are no paper ballots available so you have to use a touchscreen voting machine",
+                "fix": "Check the machine for tampering or defects",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "If your polling place <a href=\"https://www.verifiedvoting.org/verifier/\">only has touchscreen voting machines</a>, there are still steps you can take to ensure the integrity of your vote:"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Check for visual evidence the voting machine may have been tampered with. Look for security seals on sensitive parts of the machine and if these are broken, report it to a polling place worker. Do not use that machine."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Check that the touchscreen is properly calibrated. The machine should mark the correct box next to the candidate as you tap down the ballot. If the screen appears to be miscalibrated, stop voting and report it to a polling place worker. You will be allowed to use a different machine."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Check the printout to verify the vote matches what you intended.Most touchscreen voting machines will produce a paper record that documents your vote."
+                    }
+                ]
+            }
+        ]
+    },
+    "later": {
+        "signpost": "Problems for future elections",
+        "blurbs": [
+            {
+                "prob": "The vote is not audited in your state",
+                "fix": "Advocate for mandatory audits",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "Post-election audits, like manually recounting some percentage of the votes, are one way to verify that elections were conducted in a secure and reliable fashion. Unfortunately, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/post-election-audits635926066.aspx\">21 states</a> either don’t perform post-election audits, or only perform them under certain circumstances. Encouraging elected leaders in your state to pass mandatory audit legislation is one step toward making sure your vote always counts."
+                    }
+                ]
+            },
+            {
+                "prob": "You were not eligible to vote",
+                "fix": "Advocate for voter rights",
+                "copy": [
+                    {
+                        "type": "text",
+                        "value": "The laws about who is allowed to vote are constantly being revised. For example, <a href=\"http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx\">many states</a>—including swing states Virginia and Wisconsin—have adopted more strict rules for the types of identification that must be presented in order to vote. Laws around voting rights for incarcerated individuals are also in flux."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Opinions about these issues tend to vary with party affiliation. If you feel that you were unable to vote for an unjustified reason, contact your elected officials."
+                    }
+                ]
+            }
+        ]
+    }
 }

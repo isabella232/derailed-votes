@@ -14,34 +14,21 @@ mixin genAllItems(list)
 	for item in list
 		+genItemBlock(item)
 
+mixin genSection(sec)
+	.marker
+		p!=sec.signpost
+	section
+		+genAllItems(sec.blurbs)
+
 //- 
 
 //- Content
 
 .timeline
-	.marker
-		p Problems you can solve today
-
-	section.today
-		+genAllItems(today)
-
-	.marker
-		p Problems before election day
-
-	section.before_elec_day
-		+genAllItems(before_elec_day)
-
-	.marker
-		p Problems on election day<br/>November 8, 2016
-
-	section.election_day
-		+genAllItems(election_day)
-
-	.marker
-		p Problems for future elections
-
-	section.later
-		+genAllItems(later)
+	+genSection(today)
+	+genSection(before_elec_day)
+	+genSection(election_day)
+	+genSection(later)
 	.line
 
 .bylines
