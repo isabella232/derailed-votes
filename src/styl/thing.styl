@@ -160,24 +160,6 @@ section
 			h4
 				color $watch_color
 
-					
-
-
-@media only screen and (max-width 590px)
-	section
-		.item
-			padding 0 1em
-			&:nth-child(2n), &:nth-child(2n+1)
-				width 100%
-				margin 0 auto
-				margin-bottom 1em
-				&::before
-					border none
-	.timeline
-
-		.line
-			min-height 101%
-
 .marker
 	position relative
 	max-width 70%
@@ -191,4 +173,20 @@ section
 		font-family $qz-sans-bold
 		font-size 1.5em
 		line-height 1.2
-		color $line_color
+		color $line_color					
+
+
+@media only screen and (max-width 590px)
+	section
+		.item
+			padding 0 1em
+			&:nth-child(2n), &:nth-child(2n+1)
+				width 100%
+				margin 0 auto
+				margin-bottom 1em
+				&::before
+					border none
+	.timeline
+		margin-bottom 2%
+		.line
+			min-height 101%
