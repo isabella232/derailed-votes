@@ -3,9 +3,13 @@
 #interactive-content
 	max-width 940px
 	margin 0 auto
+	box-sizing border-box
+	
+	div, section
+		box-sizing border-box
 
 .timeline
-	width 95%
+	width 100%
 	margin 0 auto
 	position relative
 
@@ -15,36 +19,26 @@
 		top 0
 		min-height 100%
 		width 3px
-		background-color $qz-gray-1
+		background-color $qz-purp-4
 		z-index 0
 
 
 section
 	position relative
-	box-sizing border-box
-	margin 1em auto 1em auto
-	padding 1em
+	margin 2% auto 2% auto
+	padding 25 
 
 	h2
 		position relative
 		text-align center
-		background-color $qz-background-gray
+		background-color $qz-purp-3
 		z-index 1000
 
 	.item
-		z-index 1
-		box-sizing border-box
 		width 45%
-		max-width 320px
-		margin-top 1em
-		margin-left 10%
-		padding 0.75em
 		position relative
-		border 1px solid #ddd
-
-		&:not(:last-child)
-			margin-bottom -5em
-
+		z-index 1
+		
 		&::before
 			content ""
 			position absolute
@@ -52,65 +46,102 @@ section
 			height 0
 			width 0
 			border 7px solid transparent
-
-
-		background-color #ddd
-
+			
 		&:nth-child(2n)
-			margin-left 53%
+			margin-left 52.5%
 
 			&::before
 				right 100%
-				border-right 7px solid #ddd
+				border-right 7px solid $qz-blue-1
 
 		&:nth-child(2n+1)
+			margin-left 2.5%
+			
 			&::before
-				border-left 7px solid #ddd
 				left 100%
+				border-left 7px solid $qz-blue-1
+				left 100%
+				
+		&:not(:last-child)
+			margin-bottom -5em
+				
+		.item-inner
+			width 100%
+			margin-top 1em
+			border 1px solid $qz-blue-1
+			
+			.prob
+				padding 0.75em
+				background-color $qz-blue-1
+					
+			
+			.fix
+				padding 0.75em
+				background-color $qz-background-gray
+
+			
 
 
-		h3, h4
-			margin 0
-			padding 0
-			font-size 1.5em
-			&::before
-				font-size 0.2em
-				text-transform uppercase
-				letter-spacing 0.1em
-				display block
-				font-family $qz-sans
-		h3
-			&::before
-				content "problem"
 
-		h4
-			margin-top 0.2em
-			&::before
-				content "what you can do"
 
-		p
-			font-size 14px
-			line-height 1.4
-			padding 0
-			margin 0.45em 0 0.45em 0
+			h3, h4
+				font-family $qz-sans-bold
+				margin 0
+				padding 0
+				font-size 1.5em
+				line-height 1.2
+				&::before
+					font-size 0.5em
+					text-transform uppercase
+					letter-spacing 0.1em
+					display block
+
+			h3
+				color white
+				&::before
+					content "problem"
+					color $qz-body-black
+					
+
+			h4
+				margin-top 0.2em
+				color $qz-blue-2
+				&::before
+					content "what you can do"
+					color $qz-body-black
+
+			p
+				font-size 14px
+				line-height 1.4
+				padding 0
+				margin 0.45em 0 0.45em 0
 
 @media only screen and (max-width 590px)
-	.item
-		margin-left 0
-		margin-bottom 0
+	section
+		.item
+			padding 0 1em
+			&:nth-child(2n), &:nth-child(2n+1)
+				width 100%
+				margin 0 auto
+				margin-bottom 1em
+				&::before
+					border none
 
 .marker
 	position relative
-	border 3px $qz-gray-1 solid
-	max-width 400px
+	max-width 70%
 	margin 0 auto
-	background-color $qz-gray-1
+	background-color $qz-purp-4
 	z-index 3
+	border-radius 2px
 
 	p
 		width auto
 		text-align center
-		font-family $qz-sans
+		font-family $qz-sans-bold
+		font-size 1.2em
+		line-height 1.2
+		color $qz-purp-1
 
 .bylines
 	p

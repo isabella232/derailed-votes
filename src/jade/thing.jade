@@ -1,11 +1,14 @@
 //- Markup Generators
 mixin genItemBlock(info)
 	.item
-		h3!=info.prob
-		h4!=info.fix
-		if info.copy
-			for c in info.copy
-				p!=c.value
+		.item-inner
+			.prob
+				h3!=info.prob
+			.fix
+				h4!=info.fix
+				if info.copy
+					for c in info.copy
+						p!=c.value
 
 mixin genAllItems(list)
 	for item in list
