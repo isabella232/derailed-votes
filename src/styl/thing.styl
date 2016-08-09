@@ -56,24 +56,22 @@ section
 		&::before
 			content ""
 			position absolute
-			top 16px
+			top 0.7em
 			height 0
 			width 0
-			border 7px solid transparent
+			border 0.5em solid transparent
 			
 		&:nth-child(2n)
 			margin-left 52.5%
 
 			&::before
 				right 100%
-				border-right 7px solid $qz-blue-1
+				
 
 		&:nth-child(2n+1)
 			margin-left 2.5%
 			
 			&::before
-				left 100%
-				border-left 7px solid $qz-blue-1
 				left 100%
 				
 		&:not(:last-child)
@@ -82,20 +80,13 @@ section
 		.item-inner
 			width 100%
 			margin-top 1em
-			border 1px solid $qz-blue-1
 			
 			.prob
 				padding 0.75em
-				background-color $qz-blue-1
-					
-			
+				
 			.fix
 				padding 0.75em
 				background-color $qz-background-gray
-
-			
-
-
 
 
 			h3, h4
@@ -111,25 +102,62 @@ section
 					display block
 					margin-bottom 0.4em
 
-			h3
-				color white
-				&::before
-					content "problem"
-					color $qz-body-black
-					
-
-			h4
-				margin-top 0.2em
-				color $qz-blue-2
-				&::before
-					content "what you can do"
-					color $qz-body-black
-
 			p
 				font-size 16px
 				line-height 1.6
 				padding 0
 				margin 0.45em 0 0.45em 0
+				
+			h3
+				color white
+				&::before
+					color $qz-body-black
+					
+			h4
+				margin-top 0.2em
+				&::before
+					content "what you can do"
+					color $qz-body-black
+		&.problem
+			
+			&:nth-child(2n)::before
+				border-right 7px solid $qz-blue-1
+				
+			&:nth-child(2n+1)::before
+				border-left 7px solid $qz-blue-1
+				
+			.item-inner
+				background-color $qz-blue-1
+				border 1px solid $qz-blue-1
+			h3
+				&::before
+					content "problem"
+					
+			h4
+				color $qz-blue-2
+			
+		&.watch_out
+			
+			&:nth-child(2n)::before
+				border-right 7px solid $qz-purp-2
+				
+			&:nth-child(2n+1)::before
+				border-left 7px solid $qz-purp-2
+				
+
+			.item-inner
+				background-color $qz-purp-2
+				border 1px solid $qz-purp-2
+			h3
+				&::before
+					color yellow
+					content "watch out!"
+					
+			h4
+				color $qz-purp-2
+
+					
+
 
 @media only screen and (max-width 590px)
 	section

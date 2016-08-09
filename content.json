@@ -1,6 +1,6 @@
 {
     "today": {
-        "signpost": "Problems you can solve today",
+        "signpost": "Problems you should solve right now",
         "blurbs": [
             {
                 "prob": "You're not registered to vote",
@@ -12,7 +12,7 @@
                     },
                     {
                         "type": "text",
-                        "value": "If online or same-day registration are not an option, most states also make forms available online that can be printed, filled out, and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained at many state and county agencies, including election offices, the Department of Motor Vehicles, and state-funded programs that serve people with disabilities. They may also be available at public libraries, schools, and the municipal clerk’s office."
+                        "value": "If online or same-day registration are not an option, most states also make forms available online that can be printed, filled out, and mailed in. If you don't have internet access (are you reading this as a print out?) forms can be obtained from state and local election offices, public libraries, the Department of Motor Vehicles, and from state-funded programs that serve people with disabilities."
                     },
                     {
                         "type": "text",
@@ -47,6 +47,7 @@
             {
                 "prob": "You've been removed from the voter rolls",
                 "fix": "Verify your registration and reregister if necessary",
+                "watch_out": "true",
                 "copy": [
                     {
                         "type": "text",
@@ -57,7 +58,7 @@
         ]
     },
     "before_elec_day": {
-        "signpost": "Problems before election day",
+        "signpost": "Problems you can solve before election day",
         "blurbs": [
             {
                 "prob": "You don't have the required form of identification",
@@ -102,6 +103,7 @@
             {
                 "prob": "You’ve been removed from the voter rolls (again)",
                 "fix": "Verify your registration again and register agaib if necessary",
+                "watch_out": "true",
                 "copy": [
                     {
                         "type": "text",
@@ -112,7 +114,7 @@
         ]
     },
     "election_day": {
-        "signpost": "Problems on election day<br/>November 8, 2016",
+        "signpost": "Problems you may have on election day<br/>November 8, 2016",
         "blurbs": [
             {
                 "prob": "You don’t know where your polling place is",
@@ -177,6 +179,7 @@
             {
                 "prob": "Your polling place uses electronic touchscreen voting machines",
                 "fix": "Ask to fill out a paper ballot",
+                "watch_out": "true",
                 "copy": [
                     {
                         "type": "text",
@@ -187,6 +190,7 @@
             {
                 "prob": "There are no paper ballots available so you have to use a touchscreen voting machine",
                 "fix": "Check the machine for tampering or defects",
+                "watch_out": "true",
                 "copy": [
                     {
                         "type": "text",
@@ -209,7 +213,7 @@
         ]
     },
     "later": {
-        "signpost": "Problems for future elections",
+        "signpost": "Problems it’s too late to solve this year,<br/>but you can help fix for future elections",
         "blurbs": [
             {
                 "prob": "The vote is not audited in your state",

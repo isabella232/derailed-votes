@@ -1,6 +1,6 @@
 //- Markup Generators
-mixin genItemBlock(info)
-	.item
+mixin genItemBlock(info) 
+	.item(class= (info.watch_out ? "watch_out" : "problem") )
 		.item-inner
 			.prob
 				h3!=info.prob
