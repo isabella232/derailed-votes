@@ -1,4 +1,9 @@
 // Interactive-specific css here
+$prob_color = $qz-blue-1
+$watch_color = $qz-purp-3
+$line_color = $qz-purp-4
+$watch_accent_color = yellow
+
 
 #interactive-content
 	max-width 940px
@@ -19,7 +24,7 @@
 		top -2em
 		min-height 98%
 		width 3px
-		background-color $qz-purp-4
+		background-color $line_color
 		z-index 0
 
 		&::after, &::before
@@ -29,7 +34,7 @@
 			position absolute
 			left (-15px/2 + 3/2)
 			border-radius 100px
-			background-color $qz-purp-4
+			background-color $line_color
 
 		&::after
 			bottom 0
@@ -45,7 +50,6 @@ section
 	h2
 		position relative
 		text-align center
-		background-color $qz-purp-3
 		z-index 1000
 
 	.item
@@ -121,14 +125,14 @@ section
 		&.problem
 			
 			&:nth-child(2n)::before
-				border-right 7px solid $qz-blue-1
+				border-right 7px solid $prob_color
 				
 			&:nth-child(2n+1)::before
-				border-left 7px solid $qz-blue-1
+				border-left 7px solid $prob_color
 				
 			.item-inner
-				background-color $qz-blue-1
-				border 1px solid $qz-blue-1
+				background-color $prob_color
+				border 1px solid $prob_color
 			h3
 				&::before
 					content "problem"
@@ -139,22 +143,22 @@ section
 		&.watch_out
 			
 			&:nth-child(2n)::before
-				border-right 7px solid $qz-purp-2
+				border-right 7px solid $watch_color
 				
 			&:nth-child(2n+1)::before
-				border-left 7px solid $qz-purp-2
+				border-left 7px solid $watch_color
 				
 
 			.item-inner
-				background-color $qz-purp-2
-				border 1px solid $qz-purp-2
+				background-color $watch_color
+				border 1px solid $watch_color
 			h3
 				&::before
-					color yellow
+					color $watch_accent_color
 					content "watch out!"
 					
 			h4
-				color $qz-purp-2
+				color $watch_color
 
 					
 
@@ -187,4 +191,4 @@ section
 		font-family $qz-sans-bold
 		font-size 1.5em
 		line-height 1.2
-		color $qz-purp-4
+		color $line_color
