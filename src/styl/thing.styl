@@ -28,19 +28,18 @@ $watch_accent_color = yellow
 		z-index 0
 
 		&::after, &::before
-			content "🗳"
-			font-size 50px
-			width 50px
-			height 50px
-			left -23px
-			// border-radius 100px
-			// background-color $line_color
+			content ""
+			width 15px
+			height 15px
 			position absolute
+			left (-15px/2 + 3/2)
+			border-radius 100px
+			background-color $line_color
 
 		&::after
 			bottom 0
 		&::before
-			top -25px
+			top 0
 
 
 section
