@@ -4,7 +4,7 @@
 	max-width 940px
 	margin 0 auto
 	box-sizing border-box
-	
+
 	div, section
 		box-sizing border-box
 
@@ -21,7 +21,7 @@
 		width 3px
 		background-color $qz-purp-4
 		z-index 0
-		
+
 		&::after, &::before
 			content ""
 			width 15px
@@ -30,7 +30,7 @@
 			left (-15px/2 + 3/2)
 			border-radius 100px
 			background-color $qz-purp-4
-			
+
 		&::after
 			bottom 0
 		&::before
@@ -40,7 +40,7 @@
 section
 	position relative
 	margin 2% auto 2% auto
-	padding 25 
+	padding 25
 
 	h2
 		position relative
@@ -52,7 +52,7 @@ section
 		width 45%
 		position relative
 		z-index 1
-		
+
 		&::before
 			content ""
 			position absolute
@@ -60,7 +60,7 @@ section
 			height 0
 			width 0
 			border 7px solid transparent
-			
+
 		&:nth-child(2n)
 			margin-left 52.5%
 
@@ -70,30 +70,30 @@ section
 
 		&:nth-child(2n+1)
 			margin-left 2.5%
-			
+
 			&::before
 				left 100%
 				border-left 7px solid $qz-blue-1
 				left 100%
-				
+
 		&:not(:last-child)
 			margin-bottom -8em
-				
+
 		.item-inner
 			width 100%
 			margin-top 1em
 			border 1px solid $qz-blue-1
-			
+
 			.prob
 				padding 0.75em
 				background-color $qz-blue-1
-					
-			
+
+
 			.fix
 				padding 0.75em
 				background-color $qz-background-gray
 
-			
+
 
 
 
@@ -116,7 +116,7 @@ section
 				&::before
 					content "problem"
 					color $qz-body-black
-					
+
 
 			h4
 				margin-top 0.2em
@@ -160,9 +160,3 @@ section
 		font-size 1.5em
 		line-height 1.2
 		color $qz-purp-4
-
-.bylines
-	margin-top 2.5em
-	p
-		font-family: $qz-sans-light
-		font-size: 14px
